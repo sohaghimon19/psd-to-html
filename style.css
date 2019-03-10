@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+body {
+    font-family: sans-serif;
+}
+
+/*-----
+navbar-section
+----*/
+.navbar-contacts {
+    position: relative;
+}
+
+.login-info {
+    position: absolute;
+    top: 0;
+    left: 74%;
+}
+
+.navbar-contacts ul li a {
+    text-decoration: none;
+    color: #00bfa5;
+    border-right: 1px solid #d9d9d9;
+}
+
+.navbar-contacts ul li a i {
+    padding-right: 5px;
+}
+
+.navbar {
+    background-color: #00bfa5;
+}
+
+.float-section {
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.float-section .navbar-nav li a {
+    text-transform: uppercase;
+    font-size: .8em;
+    color: #d5d5d5;
+    font-weight: bold;
+}
+
+.float-section ul li {
+    margin-left: 0px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navbar-nav .nav-item.active {
+    border: 1px solid #fff;
+}
+
+.navbar-nav .nav-item:hover {
+    border: 1px solid #fff;
+    transition: all ease-in .5sec;
+    color: #d5d5d5;
+}
+
+/*-----
+navbar-section-ends
+----*/
+
+#wrraper-content {
+    background-image: url(images/main-contant-img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-content h1 {
+    font-weight: bold;
+    color: #00bfa5;
+    margin-top: 60px;
+}
+
+.main-content p {
+    font-weight: bold;
+    color: #666666;
+    font-size: .9em;
+}
+
+.main-content a {
+    background-color: #00bfa5;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+/*-----
+main-content-section-ends
+----*/
+#facilities-fluid {
+    background-color: #00bfa5;
+}
+
+.facilities-heading h3 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.facilities-heading p {
+    font-weight: lighter;
+    font-size: .9em;
+    color: #fff;
+}
+
+.facilities-items-text {
+    position: relative;
+}
+
+.facilities-items-text h5 {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    font-weight: bold;
+    color: #fff;
+}
+
+.facilities-items-text p {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-weight: lighter;
+    color: #fff;
+    font-size: .8em;
+}
+
+/*-----
+facilities-option-section-ends
+----*/
+.interested-heading h3 {
+    font-weight: bold;
+    color: #00bfa5;
+}
+
+.interested-heading P {
+    font-weight: lighter;
+    color: #666666;
+    font-size: .8em;
+}
+
+/*-----
+interested-section-ends
+----*/
+.course-img {
+    padding-bottom: 30px;
+}
+
+.course-info .little-heading a {
+    text-decoration: none;
+    color: #6e6e6e;
+}
+
+.price-star {
+    position: absolute;
+    top: 54%;
+    left: 70%;
+}
+
+.price-star a {
+    text-decoration: none;
+    color: #ed8000;
+}
+
+.price-star span {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #00bfa5;
+    font-style: oblique;
+    padding-bottom: 30px;
+}
+
+.course-heading {
+    margin-top: 30px;
+}
+
+.course-heading p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.course-heading a {
+    background-color: #00bfa5;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+/*-----
+Latest-Courses-ends
+----*/
+#live-class-items {
+    background-color: #00bfa5;
+}
+
+.all-classes {
+    color: #fff;
+}
+
+.all-classes h3 {
+    font-weight: bold;
+}
+
+.all-classes p {
+    font-weight: lighter;
+    font-size: .9em;
+}
+
+.all-classes a {
+    text-decoration: none;
+    background-color: #fff;
+    color: #00bfa5;
+}
+
+#youtube-videos {
+    text-align: center;
+}
+
+#youtube-videos span {
+    color: #fff;
+}
+
+#youtube-videos a {
+    text-decoration: none;
+    background-color: #FFf;
+    color: #00bfa5;
+    font-size: 1.2em;
+    padding: 0px 10px;
+    border-left-width: 5px;
+    border-left-style: solid;
+}
+
+#youtube-videos a {
+    float: right;
+}
+
+/*-----
+live-class-section-ends
+----*/
+.news-tittle {
+    text-align: center;
+}
+
+.news-tittle h3 {
+    font-weight: bold;
+    color: #00bfa5;
+    margin-bottom: 0px;
+}
+
+.card-body date {
+    color: #8a8a8a;
+    font-size: .9em;
+}
+
+.card-body p {
+    padding-top: 10px;
+}
+
+/*-----
+news-portal-section-ends
+----*/
+#footer-area {
+    background-color: #00bfa5;
+}
+
+.sign-up-item {
+    position: relative;
+}
+
+.submit-items {
+    position: absolute;
+    top: 0%;
+    left: 55%;
+    float: right;
+}
+
+.submit-items .form-control {
+    background-color: #00bfa5;
+    width: 380px;
+    height: 40px;
+}
+
+.submit-items #submit-button {
+    position: absolute;
+    top: 0;
+    left: 103%;
+    float: right;
+    background-color: #fff;
+    color: #00bfa5;
+    text-decoration: none;
+}
+
+.social-icons {
+    position: absolute;
+    top: 152%;
+    left: 56%;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+    padding-left: 10px;
+}
+
+.address-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.address-links span {
+    color: #c7e1dd;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#copyrights-area {
+    position: relative;
+    border-top: 1px solid #fff;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 15px;
+}
+
+#copyrights-area .copyrights-links {
+    position: absolute;
+    top: 30%;
+    left: 64%;
+}
+
+.copyrights-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*-----
+footer-section-ends
+----*/

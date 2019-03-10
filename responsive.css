@@ -1,0 +1,123 @@
+@media (max-width: 900px) {
+    .navbar-contacts ul li a {
+        font-size: .6em;
+        padding: 4px;
+    }
+
+    .login-info {
+        position: absolute;
+        top: 0;
+        left: 64%;
+    }
+
+    .main-content h1 {
+        font-size: 1.8em;
+    }
+
+    .main-content p {
+        font-size: .6em;
+    }
+
+    .main-content a {
+        font-size: .7em;
+    }
+
+    .facilities-items-text {
+        margin-top: 20px;
+    }
+
+    .facilities-items-text h5 {
+        padding-left: 30px;
+        font-size: 1.2em;
+    }
+
+    .facilities-items-text p {
+        padding-left: 30px;
+        font-size: .5em;
+    }
+
+    #interested-items h5 {
+        padding-left: 30px;
+    }
+
+    #interested-items p {
+        padding-left: 50px;
+    }
+
+    .price-star {
+        position: absolute;
+        top: 58%;
+        left: 62%;
+    }
+
+    .course-heading h4 {
+        font-size: 1.2em;
+    }
+
+    .course-heading p {
+        font-size: .6em;
+    }
+
+    .course-heading a {
+        font-size: .8em;
+        padding: 5px;
+    }
+
+    #youtube-videos {
+        padding-top: 30px;
+    }
+
+    .all-classes p {
+        font-size: .8em;
+    }
+
+    .all-classes a {
+        font-size: .7em;
+    }
+
+    .sign-up-item {
+        font-size: .6em;
+    }
+
+    .submit-items {
+        position: absolute;
+        top: 0;
+        left: 40%;
+    }
+
+    .submit-items .form-control {
+        width: 115px;
+    }
+
+    .submit-items a {
+        font-size: .7em;
+
+    }
+
+    .social-icons {
+        position: absolute;
+        top: 120%;
+        left: 10%;
+    }
+
+    .quick-links {
+        padding-top: 30px;
+    }
+
+    .address-links {
+        font-size: .8em;
+    }
+
+    .quick-links {
+        font-size: .8em;
+    }
+
+    .footer-links {
+        font-size: .5em;
+        padding: 0px;
+    }
+
+    .copyrights-links {
+        font-size: .4em;
+    }
+}
